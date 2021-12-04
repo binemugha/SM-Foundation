@@ -55,7 +55,7 @@ a:focus {
 }
 
 .container-fluid {
-    max-width: 1366px;
+    /* max-width: 100%; */
 }
 
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
@@ -810,8 +810,9 @@ a:focus {
 }
 
 .donate .donate-content .section-header h2 {
-    color: #ffffff;
-}
+    color: #000000;
+    font-weight: bolder;
+  }
 
 .donate .donate-text p {
     color: #ffffff;
